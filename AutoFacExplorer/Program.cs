@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Autofac;
 
 namespace AutoFacExplorer
 {
@@ -10,6 +11,9 @@ namespace AutoFacExplorer
 	{
 		static void Main(string[] args)
 		{
+			var builder = new ContainerBuilder();
+			//register comps
+
 		}
 	}
 }
